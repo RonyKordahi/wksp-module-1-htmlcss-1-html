@@ -67,7 +67,7 @@ Tags should NEVER be chosen based on presentation, or look
 
 This means that these tags are essentially off-limits
 
-`<big>`, `<small>`, `<i>`, `<b>`, `<br />`, `&nbsp;`, `<hr />`
+`<big>` (makes text bigger), `<small>` (makes text smaller), `<i>` (italics), `<b>` (bold), `<br />` (line break), `&nbsp;` (non-breaking space), `<hr />` (horizontal line)
 
 They have no semantic value.
 
@@ -77,7 +77,7 @@ Anytime you catch yourself thinking...
 
 "I should use x because I need it to look like ..."
 
-✋
+            ✋
 
 ---
 
@@ -85,7 +85,7 @@ Anytime you catch yourself thinking...
 
 1. It pleases Google.
     - Easier for its algorithm to crawl and index site
-    - Meaning a better ranking in searhc results
+    - Meaning a better ranking in search results
     - Less of a need to "game" the Google algorithm
 
 ---
@@ -116,7 +116,7 @@ Anytime you catch yourself thinking...
 
 ### Semantic HTML = Accessibility
 
-- Fines of up to $250,000. 😬
+- Fines of up to $250,000. 😬 (for lack of accessibility)
 
 ---
 
@@ -126,12 +126,12 @@ Anytime you catch yourself thinking...
 
 ## Common HTML Tags (4.01+)
 
-- Block-level elements
-    - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<p>`
+- Block-level elements (no other elements will fit next to it on the page)
+    - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<p>` (h1 to h6 must be used in order)
     - `<ul>`, `<ol>`, `<li>`, `<blockquote>`, `<table>`,
     - `<form>`
-    - `<div>`
-- Inline elements
+    - `<div>` (box, usually to make space in the page)
+- Inline elements (other elements can fit next to it on the page)
     - `<img>`, `<a>`, `<span>`, `<button>`
     - `<input>`, `<label>`, `<select>`, `<textarea>`
     - `<abbr>` 
